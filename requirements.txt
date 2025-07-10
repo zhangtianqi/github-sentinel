@@ -1,0 +1,12 @@
+# Core dependencies
+typer[all]
+pyyaml
+sqlalchemy
+apscheduler
+
+# API Clients
+pygithub
+openai
+
+# Notifiers
+requests

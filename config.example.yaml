@@ -1,0 +1,26 @@
+# GitHub Sentinel Configuration
+# Copy this file to config.yaml and fill in your details.
+
+github:
+  token: "your_github_personal_access_token" # Required. Generate from GitHub settings.
+
+llm:
+  provider: "openai" # or "gemini", "anthropic" etc. (future support)
+  api_key: "your_openai_api_key" # Required.
+  model: "gpt-4o-mini" # A cost-effective and capable model.
+
+database:
+  path: "./sentinel.db" # Path to the SQLite database file.
+
+notifications:
+  slack:
+    enabled: true
+    webhook_url: "your_slack_webhook_url"
+  discord:
+    enabled: false
+    webhook_url: "your_discord_webhook_url"
+  email:
+    enabled: false
+    # smtp_server: "smtp.example.com"
+    # smtp_port: 587
+    # ... more email settings
