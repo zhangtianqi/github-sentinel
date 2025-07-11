@@ -2,7 +2,7 @@
 # Copy this file to config.yaml and fill in your details.
 
 github:
-  token: "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" # Required. Generate from GitHub settings.
+  token: "" # Required. Generate from GitHub settings.
 
 summarizer:
   # 'ai' 使用 LLM 生成智能摘要 (需要配置下面的 'llm' 部分)。
